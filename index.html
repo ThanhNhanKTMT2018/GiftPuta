@@ -1,0 +1,933 @@
+ 
+<html>
+ 
+<head>
+        <title>Quà tặng cho Pu ahihi</title>
+         
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    
+    
+
+ <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
+ 
+ 
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+		<script src="booklet/jquery.easing.1.3.js" type="text/javascript"></script>
+		<script src="booklet/jquery.booklet.1.1.0.min.js" type="text/javascript"></script>
+
+		<link href="booklet/jquery.booklet.1.1.0.css" type="text/css" rel="stylesheet" media="screen" />
+		 
+		 
+		 <style>
+         
+              *{
+	margin:0;
+	padding:0;
+}
+body{
+	background:#ffd1dc;	
+	color:#444;
+	font-size:12px;
+	color: #333;
+    font-family: 'Oswald', sans-serif;
+}
+ 
+ 
+.booklet           {
+	width:900px;
+	height:647px;
+	position:relative;
+	margin:0 auto 10px;
+	-moz-box-shadow:0px 0px 1px #fff;
+	-webkit-box-shadow:0px 0px 1px #fff;
+	box-shadow:0px 0px 1px #fff;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+.booklet .b-wrap-left  {
+	background:#fff url(images/left_bg.jpg) no-repeat top left;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-topleft:10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.booklet .b-wrap-right {
+	background:#efefef url(images/right_bg.jpg) no-repeat top left;
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-bottomright: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.booklet .b-counter {
+	bottom:10px;
+	position:absolute;
+	display:block;
+	width:90%;
+	height:20px;
+	border-top:1px solid #ddd;
+	color:#222;
+	text-align:center;
+	font-size:12px;
+	padding:5px 0 0;
+	background:transparent;
+	-moz-box-shadow:0px -1px 1px #fff;
+	-webkit-box-shadow:0px -1px 1px #fff;
+	box-shadow:0px -1px 1px #fff;
+	opacity:0.8;
+}
+.book_wrapper{
+	margin:0 auto;
+	padding-top:50px;
+	width:905px;
+	height:540px;
+	position:relative;
+	background:transparent url(images/bg.png) no-repeat 9px 27px;
+}
+.book_wrapper h1{
+	color:orange;
+	margin:5px 5px 5px 15px;
+	font-size:24px;
+	background:transparent url(images/h1.png) no-repeat bottom left;
+	padding-bottom:7px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.book_wrapper p{
+	font-size:15px;
+	margin:5px 5px 5px 15px;
+}
+.book_wrapper a.article,
+.book_wrapper a.demo{
+	background:transparent url(images/circle.png) no-repeat 50% 0px;
+	display:block;
+	width:95px;
+	height:41px;
+	text-decoration:none;
+	outline:none;
+	font-size:16px;
+	color:#555;
+	float:left;
+	line-height:41px;
+	padding-left:47px;
+}
+.book_wrapper a.demo{
+	margin-left:50px;
+}
+.book_wrapper a.article:hover,
+.book_wrapper a.demo:hover{
+	background-position:50% -41px;
+	color:#13386a;
+}
+.book_wrapper img{
+	margin:10px 0px 5px 35px;
+	width:240px;
+	padding:4px;
+	border:1px solid #ddd;
+	-moz-box-shadow:1px 1px 1px #fff;
+	-webkit-box-shadow:1px 1px 1px #fff;
+	box-shadow:1px 1px 1px #fff;
+}
+
+.book_wrapper_bigsize img{
+	margin:10px 0px 5px 35px;
+	width:230px;
+	padding:4px;
+	border:1px solid #ddd;
+	-moz-box-shadow:1px 1px 1px #fff;
+	-webkit-box-shadow:1px 1px 1px #fff;
+	box-shadow:1px 1px 1px #fff;
+}
+.booklet .b-wrap-right img{
+	border:1px solid #E6E3C2;
+}
+a#next_page_button,
+a#prev_page_button{
+	display:none;
+	position:absolute;
+	width:41px;
+	height:40px;
+	cursor:pointer;
+	margin-top:-20px;
+	top:50%;
+	background:transparent url(images/buttons.png) no-repeat 0px -40px;
+}
+a#prev_page_button{
+	left:-30px;
+}
+a#next_page_button{
+	right:-30px;
+	background-position:-41px -40px;
+}
+a#next_page_button:hover{
+	background-position:-41px 0px;
+}
+a#prev_page_button:hover{
+	background-position:0px 0px;
+}
+ 
+    
+    
+         </style>
+		 
+    </head>
+    <body>
+    <br><br><br><br><br>
+		 
+		<div class="book_wrapper">
+			<a id="next_page_button"></a>
+			<a id="prev_page_button"></a>
+			 
+			<div id="mybook" style="display:none;">
+				<div class="b-load">
+					<div>
+						<img class="book_wrapper_bigsize" src="images/img_0.jpg" alt=""/>
+						
+						<p></p>
+						
+					</div>
+					<div>
+						
+						<h1>Chống chỉ định cho người cô đơn</h1>
+						<p>Chào bé iu của anh, chào các bạn thân yêu,</p>
+						<p>Đây sẽ là cuốn sách nho nhỏ kể lại các câu chuyện chúng tôi đã đi qua sau 6 tháng chính thức yêu nhau, nếu bạn không thích chuyên mục này, hãy close tab ngay tại đây.
+						</p>
+						<p>Trân trọng,</p>
+						<p>TaNa</p>
+						
+					</div>
+					<div>
+						<img src="images/img_1.JPG" alt=""/>
+						
+						<h1>Quán Lông chó - Quận 1</h1>
+						
+					</div>
+					<div>
+						
+						<h1>Đêm đầu tiên chúng tôi gặp nhau - 5/11/2023</h1>
+						<p>Èo, phải nói sao ta. Em rủ tôi đến 1 quán bar giấu tên, cảm xúc rất phức tạp vì tôi chưa bao giờ đi đến một nơi nào như vậy. Tôi mặc 1 bộ đồ style khá "good_boy", trải nghiệm cũng khá thú vị và chúng tôi có ấn tượng khá tốt ngay từ lần gặp đầu tiên. Đó là một đêm ấn tượng.</p>
+						
+					</div>
+					<div>
+						<img src="images/img_2.jpg" alt="" />
+						<h1>Photo Booth ở đâu không nhớ nữa</h1>
+						<p>(Vì lúc này trong đầu tôi chỉ có hình bóng em)</p>
+					
+					</div>
+					<div>
+						
+						<h1>First Date - 19/11/2023</h1>
+						<p>Chà, tuy chủ đề ảnh là 20/11 (lý do tại sao lại chọn thì những người yêu mến tôi sẽ biết) nhưng chúng tôi enjoy sớm 1 ngày haha. Đây là hôm đầu tiên chúng tôi hẹn gặp riêng với nhau sau cái đêm đi bar định mệnh ở trước, lúc này cả 2 vẫn chưa chính thức hẹn hò nhưng cảm giác vẫn rất chi là đáng yêu.</p>
+					</div>
+
+					<div>
+						<img src="images/img_3.jpg" alt="" />
+						
+					</div>
+					<div>
+						
+						<h1>First Date - 19/11/2023</h1>
+						<p>Tiếp tục chuyên mục first date khi em dẫn tôi đi Hồ Con Rùa, thú thật sau hơn 6 năm sống tại SG, đây là lần đầu tiên tôi đến nơi này.</p>
+						<p>(Thật là hai lúa làm sao!!!!)</p>
+					
+					</div>
+
+					<div>
+						<img src="images/img_4.jpg" alt="" />
+						<h1>Bức ảnh đẹp nhất ngày hôm đó</h1>
+						<p>Đây là bó hoa đầu tiên mà tôi tặng em, trông em thật đáng yêu làm sao, xem lại mà cảm giác của tôi vẫn nguyên vẹn như lúc đó</p>
+						
+					</div>
+					<div>.
+						
+						<h1>1 ngày chilling ở Hidden Bar - 25/11/2023</h1>
+						<p>Chúng tôi đi ngay vào 1 ngày mưa, và hôm đó tôi bất cẩn bỏ quên áo mưa ở nhà (áo mưa bự nhé). Thế là 2 đứa phải tạt vào 1 cây ATM ven đường trú mưa. Xem lại bức ảnh mà tình biết bao luôn!</p>
+						
+						<img src="images/img_5.JPG" alt="" />
+					</div>
+					<div>
+						<img src="images/img_7.jpg" alt="" />
+						<h1>Chúng tôi chính thức yêu nhau - 3/12/2023</h1>
+						
+						
+					</div>
+					<div>
+						
+						<img src="images/img_8.JPG" alt="" />
+						<p>Tấm ảnh photo booth tiếp theo được đặt ở phố đi bộ Nguyễn Huệ. Chúng ta xinh quá ahihi! </p>
+					</div>
+					<div>
+						<img src="images/img_9.jpg" alt="" />
+						<h1>Một ngày đi chơi vào sáng sớm - 10/12/2023</h1>
+						<p>Chúng ta khởi hành lúc 5h sáng để enjoy cafe bệt, đó cũng là lần đầu tiên của kẻ hai lúa 6 năm ở Sài Gòn =)). Sau thì chúng ta đi trải nghiệm nhà thờ "hồng" Tân Định, nhìn cũng khá đẹp nhỉ? Hôm đó cũng là lần đầu tôi đi xem concert NCT trong rạp phim với em.</p>
+						
+					</div>
+					<div>
+						
+						<img src="images/img_11.jpg" alt="" />
+						
+					</div>
+
+					<div>
+						<img src="images/img_12.jpg" alt="" />
+						<h1>TADAAAA! GIÁNG SINH 2023 ĐÂY RỒI!</h1>
+						<p>Thế là sao bao lâu, anh lại cùng đón giáng sinh cùng với người anh yêu rồi! Chúng ta đã trưởng thành hơn, không ồn ào hơn, giáng sinh năm đó anh cảm thấy ấm áp lắm em biết không. IUUUUUUU</p>
+						
+					</div>
+					<div>
+						
+						<img src="images/img_13.jpg" alt="" />
+						<h1>Món quà vụng về của Santa X dành cho bé pu ahihi. </h1>
+						<p>Quà không bao nhiêu, được mỗi cái tấm lòng <3. Thú thật tôi cũng không phải dân khéo tay gì, nên nhìn vô là biết vụng về ngay haha!</p>
+					</div>
+
+
+					<div>
+						<img src="images/img_14.jpg" alt="" />
+						<h1>Món quà của bé iu dành cho anh</h1>
+						<p>Nó luôn nằm đâu đó trên bức tường phòng anh. Anh xem nó như một món quà vô giá, một kỉ niệm không bao giờ quên đối với anh.</p>
+						
+					</div>
+					<div>
+						<img src="images/img_15.jpg" alt="" />
+						
+						
+					</div>
+
+					<div>
+						<img src="images/img_16.jpg" alt="" />
+						<h1>Đón tết dương lịch 2024 cùng với gia đình của bé</h1>
+						<p>Lần đầu tiên em ra mắt anh với gia đình, anh hồi hộp lắm nhưng sau cùng thì đó là một kỉ niệm đáng nhớ. Mọi người rất tuyệt vời!</p>
+						
+					</div>
+					<div>
+						<img src="images/img_17.jpg" alt="" />
+						<h1>Đón tết dương lịch 2024</h1>
+						<p>Check in nhà thờ Song Vĩnh ở Bà Rịa, nơi này cũng khá gần nhà của em.</p>
+						
+					</div>
+
+					<div>
+						<img src="images/img_18.jpg" alt="" />
+						<h1>Đón tết dương lịch 2024 - Vũng Tàu</h1>
+						<p>Cá nhân tôi thấy thì view khá ổn nhưng nước uống thì không xuất sắc lắm, quan trọng là đi cùng em thì mọi thứ sẽ đều vui!</p>
+						
+					</div>
+					<div>
+						<img src="images/img_19.jpg" alt="" />
+						<h1>Đón tết dương lịch 2024 - Vũng Tàu</h1>
+						<p>Chụp ở ngọn hải đăng ne, quá đã luôn, đúng là thổ địa dẫn đi chơi cái khác bọt liền!</p>
+						
+					</div>
+					<div>
+						<img src="images/img_20.jpg" alt="" />
+						<h1>Đón tết dương lịch 2024 - Vũng Tàu</h1>
+						<p>Một trong những điều đáng nhớ nhất của chuyến đi này là chúng ta đón được cả bình minh lẫn hoàng hôn một cách TRỌN VẸN! Cảm giác đó thật tuyệt vời biết bao. Tôi có quay 1 đoạn timelapse cả quá trình mặt trời mọc, cứ như là nó trồi lên từ mặt biển vậy, ảo diệu!</p>
+						
+					</div>
+					<div>
+						<img src="images/img_21.jpg" alt="" />
+						<h1>Đón tết dương lịch 2024 - Vũng Tàu</h1>
+						<p>Bình minh đẹp nhất là em, hoàng hôn đẹp nhất là khi em cười <3</p>
+						
+					</div>
+
+					<div>
+						<img src="images/img_22.jpg" alt="" />
+						<h1>27/01/2023 - Những ngày cận Tết Nguyên Đán</h1>
+						<p>Đây là hôm 2 đứa đi chơi ở bãi cỏ landmark 81 ne! View khá đẹp đó</p>
+						
+					</div>
+					<div>
+						<img src="images/img_24.jpg" alt="" />
+						<h1>2/01/2023 - Những ngày cận Tết Nguyên Đán</h1>
+						<p>"Bé muốn có đồ chơi!" - Thế là hadilao tặng luôn cho cái quạt cầm tay ne, bông cũng xinh nữa (tại vì người nhận cũng xinh đó <3)</p>
+						
+					</div>
+					<div>
+						<img src="images/img_25.jpg" alt="" />
+						<h1>28/01/2023 - Những ngày cận Tết Nguyên Đán</h1>
+						<p>Ngày cuối cùng 2 đứa đi chơi trước khi anh về quê ăn Tết cùng gia đình, điểm nhấn vẫn là triển lãm tranh khá độc lạ.</p>
+						
+					</div>
+					<div>
+						<img src="images/img_26.jpg" alt="" />
+						<h1>28/01/2023 - Những ngày cận Tết Nguyên Đán</h1>
+						<p>Cùng khá nhiều món đồ cũng như view chụp ảnh. Một chút kỉ niệm đáng nhớ những ngày cuối năm, iu bé ahihi.</p>
+						
+					</div>
+					<div>
+						<img src="images/img_27.jpg" alt="" />
+						<h1>24/02/2024 - Chúng tôi gặp lại nhau</h1>
+						<p></p>
+						
+					</div>
+					<div>
+						
+						<h1>24/02/2024 - Người bạn mới</h1>
+						<p>Cũng ngay ngày này tôi gặp được người anh zai Phú Yên hàng xóm. Cũng khá vui, không biết sau này 2 ae có nhiều cơ hội gặp nhau hay không.</p>
+						<p>24/02/2024 cũng là 1 ngày rất trọng đại với chúng tôi, lật qua trang sau nhé <3</p>
+						<h1>24/02/2024 ->>>>>>> Lật ngay nào!</h1>
+						
+					</div>
+
+					<div>
+						<img src="images/img_29.jpg" alt="" />
+						<h1>24/02/2024 - Đứa con tinh thần chính thức ra đời</h1>
+						<p>Belli là một trong những khởi đầu mới của 2 đứa với đam mê về mùi hương. Belli sinh ra là để mang lại những hương thơm của cuộc sống. Hi vọng 2 đứa sẽ tiến xa hơn được nữa.</p>
+						
+					</div>
+					<div>
+						<img src="images/img_30.jpg" alt="" />
+						<h1>24/02/2024 - Những dòng nhật kí mới</h1>
+						<p>Cuốn sổ chúng ta lại thêm được vài trang mới rồi đó baby à. Yêu quá đi!</p>
+						
+					</div>
+					<div>
+						<img src="images/img_31.jpg" alt="" />
+						<h1>09/03/2024 - Đi chơi hậu 08/03</h1>
+						<p>Chúng tôi đi coi phim Dune ne, imax 4d các kiểu luôn.</p>
+						<p>Nhưng hôm đó chúng tôi cũng không quên làm 1 "nháy" kỉ niệm ở photo booth hihi.</p>
+					</div>
+					<div>
+						<img src="images/img_32.JPG" alt="" />
+						<h1>09/03/2024 - Thêm 1 tấm ảnh mới cho cuốn album</h1>
+						<
+						
+					</div>
+
+					<div>
+						<img src="images/img_33.jpg" alt="" />
+						<h1>Tối 14/03/2024 - GET GO ĐÀ LẠT THÔI!!!!</h1>
+						<p>Chúng tôi đi xe Đà Lạt ơi, khởi hành lúc 11h đêm.</p>
+						<p>Book giường đôi, giá vừa rẻ, mà còn vừa ấm áp nữa ahihi.</p>
+					</div>
+					<div>
+						<img src="images/img_34.JPG" alt="" />
+						<h1>5h30 sáng 15/03/2024 - Chúng tôi cập bến Đà Lạt.</h1>
+						<p>Tôi chủ quan mặc cái quần đùi, LẠNH!!!!!!</p>
+						
+					</div>
+					<div>
+						<h1>Sáng 15/03/2024</h1>
+						<img src="images/img_35.jpg" alt="" />
+						
+						<p>Ngay lúc ghé homestay thì chúng tôi vẫn chưa lấy phòng được vì người thuê cũ chưa trả. Một trong những thứ chúng tôi phải trải nghiệm sau đó là lấy xe máy đi ăn bánh mì chấm ngay lập tức. Giá thuê xe ở đây cũng rẻ, với xe tay ga là 130k 1 ngày</p>
+						
+					</div>
+					<div>
+						<h1>Sáng 15/03/2024</h1>
+						<img src="images/img_36.jpg" alt="" />
+						
+						<p>Sau khi ăn no nê thì phải làm ly sữa đậu nành nóng nữa chứ hề. Sửa ở đây làm đậm vị, béo, uống cực kì ngon luôn! 10/10</p>
+						
+					</div>
+					<div>
+						<h1>Sáng 15/03/2024</h1>
+						<img src="images/img_37.jpg" alt="" />
+						
+						<p>Ăn uống no nê xong chúng tôi đi dạo khu hồ Xuân Hương, có cái cây mọc bông tím tím nhìn cũng lạ mắt quá hề. Ở đây thì đặc sản là rừng thông thênh thang, nhìn siêu đẹp.</p>
+						
+					</div>
+					<div>
+						<h1>Sáng 15/03/2024</h1>
+						<img src="images/img_38.jpg" alt="" />
+						
+						<p>Lúc đó có ghé moss mua ít đồ chơi với đất sét để ngồi chơi chơi trong lúc đợi homestay gọi nhận phòng.</p>
+						
+					</div>
+					<div>
+						<h1>Sáng 15/03/2024 - Check in địa điểm quen thuộc nè!!!!!</h1>
+						<img src="images/img_39.jpg" alt="" />
+						
+						<p>EM</p>
+						
+					</div>
+					<div>
+						<h1>Sáng 15/03/2024 - Check in địa điểm quen thuộc nè!!!!!</h1>
+						<img src="images/img_40.jpg" alt="" />
+						
+						<p>và TÔI</p>
+						
+					</div>
+					<div>
+						<h1>Sáng 15/03/2024</h1>
+						<img src="images/img_41.jpg" alt="" />
+						
+						<p>Check in Katinat, ngồi nặn đất sét, hôm đó tôi nặn được mấy con thú vô tri siêu nhiều, khác hẳn với em, nhưng dù gì thì cũng vui lắm.</p>
+						
+					</div>
+					<div>
+						<h1>Sáng 15/03/2024!</h1>
+						<img src="images/img_50.jpg" alt="" />
+						
+						<p>Tác phẩm của tôi đây này! Vô tri chưa haha </p>
+						
+					</div>
+					<div>
+						<h1>Sáng 15/03/2024</h1>
+						<img src="images/img_51.jpg" alt="" />
+						
+						<p>Còn đây là tác phẩm do chúng tôi làm cùng! Đúng là thuận vợ thuận chồng quá đi hả kk.</p>
+						
+					</div>
+
+					<div>
+						<h1>Sáng 15/03/2024!</h1>
+						<img src="images/img_48.jpg" alt="" />
+						
+						<p>1 Tấm hình hai đứa chụp kỉ niệm ở katinat</p>
+						
+					</div>
+					<div>
+						<h1>Sáng 15/03/2024</h1>
+						<img src="images/img_49.jpg" alt="" />
+						
+						<p>Tiếp tấm nữa nè hihi!</p>
+						
+					</div>
+
+					<div>
+						<h1>Trưa 15/03/2024!</h1>
+						<img src="images/img_42.jpg" alt="" />
+						
+						<p>Đến trưa đói quá vẫn chưa thấy homestay gọi, chúng tôi dẫn nhau đi ăn mì ramen với cơm cà ri. Quán này decor đẹp, đồ ăn ngon, đánh giá 9/10.</p>
+						
+					</div>
+					<div>
+						<h1>Trưa 15/03/2024</h1>
+						<img src="images/img_43.jpg" alt="" />
+						
+						<p>NHẬN PHÒNG RỒI!!!! Check in vài tấm thôi. View ở đây nhìn cũng khá chill, homestay làm theo style nhà gỗ nên cũng khá độc đáo</p>
+						
+					</div>
+					<div>
+						<h1>Trưa 15/03/2024!</h1>
+						<img src="images/img_44.jpg" alt="" />
+						
+						<p>Em xinh quá! Nên thôi, chụp thêm tấm nữa. Tư hào vì người yêu mình xinh quá đi thoi <3.</p>
+						
+					</div>
+
+					<div>
+						<h1>Chiều tối 15/03/2024</h1>
+						<img src="images/img_45.jpg" alt="" />
+						
+						<p>Món thứ 2 must try in DaLat: Bánh khọt! Và cũng kèm theo... ly sữa đậu nành nóng nữa ahihi. 9.5/10 nhá!</p>
+						
+					</div>
+					<div>
+						<h1>Tối 15/03/2024!</h1>
+						<img src="images/img_46.jpg" alt="" />
+						
+						<p>Một trong những điều nhất định bạn phải dẫn người yêu đi đến ở Đà Lạt là dắt cô ấy đến Khu chợ hoa, mua cho cô ấy một bó bông thật đẹp bạn nhé.</p>
+						
+					</div>
+
+					<div>
+						<h1>Tối 15/03/2024</h1>
+						<img src="images/img_52.jpg" alt="" />
+						
+						<p>Dạo dạo 1 hồi trong chợ Đà Lạt có ban nhạc cổ truyền ghé vô xem trải nghiệm cùng bé ahihi.</p>
+						
+					</div>
+
+					<div>
+						<h1>Tối 15/03/2024</h1>
+						<img src="images/img_54.jpg" alt="" />
+						
+						<p>Ghé làng farm mua 1 ít đồ lưu niệm về cho mọi người. Giờ mới biết ban nhạc nãy là của Làng farm mời về phục vụ mọi người.</p>
+						
+					</div>
+					
+					<div>
+						<h1>Tối 15/03/2024!</h1>
+						<img src="images/img_55.jpg" alt="" />
+						
+						<p>1 góc khác tại Làng Farm.</p>
+						
+					</div>
+
+					<div>
+						<h1>Tối 15/03/2024!</h1>
+						<img src="images/img_53.jpg" alt="" />
+						
+						<p>Dạo 1 hồi đói quá ghé ăn vặt ban đêm ahihi.</p>
+						
+					</div>
+
+					<div>
+						<h1>Tối 15/03/2024!</h1>
+						<img src="images/img_56.jpg" alt="" />
+						
+						<p>Kết thúc 1 ngày ăn chơi tại Đà Lạt. Về lại homestay thooiiiii!</p>
+						
+					</div>
+					<div>
+						<h1>Một chút trải lòng về ngày đầu tiên!</h1>
+												
+						<p>"Lạnh, siêu nhiều dốc và đẹp hơn tôi nghĩ rất nhiều" sẽ là câu nói mà bản thân tôi dành cho Đà Lạt với góc nhìn là lần đầu tiên trong đời tôi ghé thăm nơi này. Việc thử thách mình với những con dốc làm tôi cảm thấy trải nghiệm của chuyển đi trở nên hứng thú hơn bao giờ hết! Con người thân thiện, đồ ăn ngon, phong cảnh dù cho đã đô thị hóa đi rất nhiều nhưng vẫn giữ cho mình 1 cái gì đó rất thơ! Những lúc trời lạnh, có cái ôm của em từ đằng sau làm tôi cảm thấy ấm áp hơn bao giờ hết. Cảm ơn em vì đã đến bên tôi. Chúng ta cùng về nhà thôi, cái lạnh này sẽ thật tuyệt vời nếu như có em bên cạnh, và chúng ta đã có ngày đầu tiên rất tuyệt vời tại Đà Lạt.</p>
+						
+					</div>
+
+					<div>
+						<h1>Sáng 16/03/2024 - Ngày thứ 2 tại Đà Lạt</h1>
+						<img src="images/img_57.jpg" alt="" />
+						
+						<p>Ghé ra chiếc vườn nhỏ của homestay hít khí trời tươi mát và ngắm những bông cẩm tú cầu được trồng và chăm sóc kĩ lưỡng.</p>
+						
+					</div>
+
+					<div>
+						<h1>Sáng 16/03/2024</h1>
+						<img src="images/img_58.jpg" alt="" />
+						
+						<p>Cẩm tú cầu mọc trên cây nhìn tươi và đẹp hơn khi mua ở Sài Gòn rất nhiều! Em rất thích loại bông này, phải chăng mọi thứ xung quanh cũng đang ủng hộ cho cuộc tình chúng ta?</p>
+						
+					</div>
+
+					<div>
+						<h1>Sáng 16/03/2024</h1>
+						<img src="images/img_59.jpg" alt="" />
+						
+						<p>Trong lúc đợi cô ấy trang điểm thì tôi có thử qua cảm giác ăn mì gói uống cafe nóng. Ta nói nó đã!!!! Thổi miếng mì khói nó bay nghi ngút haha, ăn nó ấm cái bụng.</p>
+						
+					</div>
+
+					<div>
+						<h1>Sáng 16/03/2024</h1>
+						<img src="images/img_60.jpg" alt="" />
+						
+						<p>Nhưng sau đó thì dẫn em iu đi ăn sáng liền, để bé đói anh chịu nào nổi. Nhưng có lúc xui lúc may, và.....quán này không ngon! 6d</p>
+						
+					</div>
+
+					<div>
+						<h1>Trưa 16/03/2024</h1>
+						<img src="images/img_61.jpg" alt="" />
+						
+						<p>Welcome to Tà Nung! Địa điểm này khá xa TP. Đà Lạt, đổi lại chúng tôi đến được một đồng hoa tuyệt vời ông mặt trời luôn các bạn ạ. NHƯNG! Em vẫn là một trong những bông hoa đẹp nhất của cuộc đời tôi.</p>
+						
+					</div>
+
+					<div>
+						<h1>Trưa 16/03/2024</h1>
+						<img src="images/img_62.jpg" alt="" />
+						
+						<p>Em xinh xắn bên những bông hoa lavender, đây là lần đầu tiên tôi thấy hoa này ngoài đời thực đó! Đây là chỗ mà em chụp nhiều hình nhất, cá nhân tôi cũng thấy siêu đẹp nhé.</p>
+						
+					</div>
+
+					<div>
+						<h1>Trưa 16/03/2024</h1>
+						<img src="images/img_63.jpg" alt="" />
+						
+						<h1>Thêm một chút cơm tờ ró của chúng tôi nhé ahihi</h1>
+						
+					</div>
+
+					<div>
+						<h1>Trưa 16/03/2024</h1>
+						<img src="images/img_64.jpg" alt="" />
+						
+						<p>Cá nhân tôi rất recommend địa điểm này cho các bạn nhaaaa! Thức uống rẻ, cảnh đẹp, có chỗ ngồi nghỉ nữa.</p>
+						
+					</div>
+
+					<div>
+						<h1>Trưa 16/03/2024</h1>
+						<img src="images/img_65.jpg" alt="" />
+						
+						<h1>Một góc quảng cáo</h1>
+						
+					</div>
+
+					<div>
+						<h1>Trưa 16/03/2024</h1>
+						<img src="images/img_66.jpg" alt="" />
+						<h1>Replica Flower Market</h1>
+						<p>Chai nước hoa cho nữ rất hợp vibe tại Đà Lạt này, hương hoa trắng chủ điển không quá ngọt, ngửi siêu dễ chịu luôn các nàng nhé.</p>
+						
+					</div>
+
+					<div>
+						<h1>Chiều 16/03/2024</h1>
+						<img src="images/img_67.jpg" alt="" />
+						
+						<p>Sau khi về lại homestay nghỉ trưa thì chúng tôi checkin địa điểm mới. Cafe Yooberi (Nếu tôi nhớ không nhầm). Quán này có nhiều khu check-in lắm, trang sau còn nữa ahihi.</p>
+						
+					</div>
+
+					<div>
+						<h1>Chiều 16/03/2024</h1>
+						<img src="images/img_68.jpg" alt="" />
+						
+						<p>Tấm ảnh xe đạp, nhìn cứ như là hình cưới vậy, tôi mong điều này sẽ trở thành sự thật chứ nhìn chúng tôi đáng yêu quá đi thooiii. Đây sẽ là view khu đầu tiên nhé</p>
+						
+					</div>
+
+					<div>
+						<h1>Chiều 16/03/2024</h1>
+						<img src="images/img_69.jpg" alt="" />
+						
+						<p>1 góc check-in khác ở Yooberi.</p>
+						
+					</div>
+
+					<div>
+						<h1>Chiều 16/03/2024</h1>
+						<img src="images/img_70.jpg" alt="" />
+						
+						<p>Thêm góc nữa hen, trong cái nhà kia có cái nệm với mấy con gấu nhìn đẹp lắm.</p>
+						
+					</div>
+
+					<div>
+						<h1>Tối 16/03/2024 - Đêm cuối tại Đà Lạt</h1>
+						<img src="images/img_73.jpg" alt="" />
+						
+						<p>Đêm cuối chúng tôi dẫn nhau đi ăn nướng, trời ơi 6h tối thôi mà đường đi nó lạnh ơi là lạnh, ăn nướng siêu ngon luôn các bạn ạ.</p>
+						
+					</div>
+					<div>
+						<h1>Tối 16/03/2024 - Đêm cuối tại Đà Lạt</h1>
+						<img src="images/img_72.jpg" alt="" />
+						
+						<p>Đồ ăn nè, nhìn quá đã đi thôi. Ăn xong là người đầy mùi thịt nướng luôn á.</p>
+						
+					</div>
+
+					<div>
+						<h1>Tối 16/03/2024</h1>
+						<img src="images/img_71.jpg" alt="" />
+						
+						<p>Ăn xong chúng tôi về lại Thành phố, trên trường đi chúng tôi bị lạc đường, và tình cờ bắt gặp được trường ĐH Kiến Trúc cơ sở Đà Lạt (Cho những ai chưa biết thì bé iu của tôi tốt nghiệp ĐH Kiến Trúc TP. HCM nhé). Thật là tình cờ quá đi!!!!</p>
+						
+					</div>
+					<div>
+						<h1>Tối 16/03/2024</h1>
+						<img src="images/img_74.jpg" alt="" />
+						
+						<p>Chúng tôi có ghé lại chợ đêm mua hộp dâu về ăn với ít cái móc khóa len lưu niệm về cho mấy đứa nhỏ. Và đi ngủ để mai dậy sớm chuẩn bị đồ quay lại Sài Gòn thôi</p>
+						
+					</div>
+
+					<div>
+						<h1>Sáng sớm 17/03/2024</h1>
+						<img src="images/img_75.jpg" alt="" />
+						
+						<p>Dậy thôi em iu oiiii, cùng nhau trải nghiệm cảm giác ăn mì gói uống gì đó nóng nóng vào sáng sớm ở Đà Lạt nè! Chúng ta sắp phải về lại Sài Gòn rồi đó.</p>
+						
+					</div>
+
+					<div>
+						<h1>Sáng 17/03/2024</h1>
+						<img src="images/img_76.jpg" alt="" />
+						
+						<p>Chơi chưa đã nên sau khi đã thu dọn đồ đạc xong, chúng tôi tận dụng nốt thời gian còn lại trước khi xe tới để đi đến một nơi nào đó nữa.</p>
+						
+					</div>
+
+					<div>
+						<h1>Sáng 17/03/2024</h1>
+						<img src="images/img_77.jpg" alt="" />
+						
+						<p>Và... Chúng tôi tìm đến 1 quán Cafe trên ngọn núi sau khi lội qua 1 đoạn đường khá chông gai đầy dốc, nhưng với bản lĩnh lái xe của tui thì không có gì có thể làm khó</p>
+						
+					</div>
+
+					<div>
+						<h1>Sáng 17/03/2024</h1>
+						<img src="images/img_78.jpg" alt="" />
+						
+						<p>Check in tại quán ne.</p>
+						
+					</div>
+
+					<div>
+						<h1>Sáng 17/03/2024</h1>
+						<img src="images/img_79.jpg" alt="" />
+						
+						<h1>Một vài view khác tại quán</h1>
+						
+					</div>
+
+					<div>
+						<h1>Sáng 17/03/2024</h1>
+						<img src="images/img_80.jpg" alt="" />
+						
+						<p>Đang uống cafe đâu đó được 5p thì nhà xe gọi, mặc dù chưa muốn nhưng chúng tôi phải xa nơi này để cho kịp chuyến xe. Lúc ra về còn xin chị chủ vài trái thông đem về làm kỉ niệm nữa cơ chứ!</p>
+						
+					</div>
+					<div>
+						<h1>Sáng 17/03/2024</h1>
+						<img src="images/img_81.jpg" alt="" />
+						
+						<h1>Lên xe về lại Sài Gòn thôiiiiiiiiii</h1>
+						
+					</div>
+					<div>
+						<h1>Đôi lời tâm sự</h1>
+						<p>Có vẻ tôi đã lôi mọi người hơi sâu vào chuyến đi Đà Lạt của chúng tôi rồi nhỉ? Nhưng thật sự, đây là một chuyến đi quá ý nghĩa với tôi. Đây là lần đầu tiên trong đời, tôi đặt chân đến mảnh đất này, và cũng là lần đầu tiên, tôi đến một nơi tuyệt đẹp cùng với người tôi yêu. Có lẽ đối với tôi, đây sẽ là một chuyến đi rất đáng nhớ. Nếu ai đó hỏi tôi rằng: "Đi Đà Lạt về bạn có được gì?", xin thưa tôi đã có được rất nhiều! Từ trải nghiệm mới, con người mới, kỉ niệm quý giá cho đến việc chúng tôi góp được nhiều ý nghĩa hơn trong mối quan hệ này khi mà cùng nhau đi đến một nơi xa. Nhưng nói gì thì nói, cuộc vui nào cũng sẽ đến hồi kết, chúng tôi phải tạm xa nơi này một thời gian, quay lại nhịp sống hối hả ở Sài Gòn nhưng Đà Lạt ơi, đợi chúng tôi nhé! Chúng tôi sẽ quay trở lại vào một ngày không xa.</p>
+						
+					</div>
+
+					<div>
+						<h1>Trở lại cuộc sống bình thường - 20/03/2024</h1>
+						<img src="images/img_82.jpg" alt="" />
+						
+						<p>Tham dự lễ tốt nghiệp của Uyên - em gái bồ tui. Hôm đó tôi đi cùng với gia đình của bé nên vui lắm.</p>
+						
+					</div>
+
+					<div>
+						<h1>06/04/2024</h1>
+						<img src="images/img_83.jpg" alt="" />
+						
+						<p>Checkin chùa Một Cột ở Thủ Đức ne, đi cầu bình an cho mọi người.</p>
+						
+					</div>
+					<div>
+						<h1>07/04/2024</h1>
+						<img src="images/img_84.jpg" alt="" />
+						
+						<p>Đi ăn ở Fast Feel, nhìn đĩa Salad healthy vậy thôi chứ sau đó là combo mỳ ý và Pizza, cũng không... heo thì mấy đâu kkk.</p>
+						
+					</div>
+
+					<div>
+						<h1>15/04/2024</h1>
+						<img src="images/img_85.jpg" alt="" />
+						
+						<p>Checkin tiệm phụ kiện nào đó mà tôi không nhớ tên được ạ kk. Em chỉ cần nói "em thích!" là anh tạt dô mua cho em liền ahihi.</p>
+						
+					</div>
+					<div>
+						<h1>15/04/2024</h1>
+						<img src="images/img_86.jpg" alt="" />
+						
+						<p>Nhìn tôi... ba chấm quá, khùng điên quá đi!</p>
+						
+					</div>
+
+					<div>
+						<h1>27/04/2024</h1>
+						<img src="images/img_87.jpg" alt="" />
+						
+						<p>Anh về nhà em rồi neeee! Cùng nhau chuẩn bị sinh nhật cho bà nội thoiiii</p>
+						
+					</div>
+					<div>
+						<h1>30/04/2024</h1>
+						<img src="images/img_88.jpg" alt="" />
+						
+						<p>Đi Cafe cùng gia đình em ở 1 tiệm trà nào đó kk. Thấy ấm cúng lắm ạ.</p>
+						
+					</div>
+
+					<div>
+						<h1>05/05/2024</h1>
+						<img src="images/img_89.jpg" alt="" />
+						
+						<p>Lại nữa rồi! Em lại có thêm 1 bé gấu rước về nhà, lần này là con dịt con ngỗng cổ dài thòng kk</p>
+						
+					</div>
+
+					<div>
+						<h1>05/05/2024</h1>
+						<img src="images/img_91.jpg" alt="" />
+						
+						<p>Gắp gấu xong mình đi chơi bowling nhaaaa, anh chơi lần đầu nên cứ chơi bị phạm luật miết thôi haha. Cơ mà vui nhe, chơi dễ nghiện.</p>
+						
+					</div>
+					<div>
+						<h1>05/05/2024</h1>
+						<img src="images/img_90.jpg" alt="" />
+						
+						<p>Chơi hả hê xong thì mình cùng đi ăn đồ Thái thuiiii.</p>
+						
+					</div>
+					<div>
+						<h1>09/05/2024</h1>
+						<img src="images/img_92.jpg" alt="" />
+						
+						<p>Lén dẫn em dô khu vui chơi trẻ em dưới chung cư để chơi bập bênh haha, lúc này tôi cũng... hùa vào chơi theo chứ có tha đâu!</p>
+						
+					</div>
+					<div>
+						<h1>25/05/2024</h1>
+						<img src="images/img_93.jpg" alt="" />
+						
+						<p>Cùng đón chờ bộ album mới của em nào! Em xinh lắm đó baby à, anh thật tự hào khi có em bên cạnh.</p>
+						
+					</div>
+
+					<div>
+						<h1>03/06/2024</h1>
+						<h1>YEAHHH!!!!! Thời gian đếm ngược đã được 6 tháng chúng ta chính thức bên nhau rồi đó, chúc chúng ta mãi bên nhau để mang lại thêm nhiều kỉ niệm, làm dày thêm cuốn sổ này em nhé</h1>
+						
+					</div>
+
+					<div>
+						
+						<h1>Hãy chờ đón cuốn sổ này ở các giai đoạn trọng đại mới của chúng tôi nhé.</h1>
+						<p>Thân ái, chúng ta sẽ tạm kết thúc ở đây nhé. Chúng tôi bận yêu nhau rồi!!!!</p>
+						<p>Bye bye các bạn.</p>
+						
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<script>
+        // JavaScript to scale the body to 150%
+        document.body.style.transform = 'scale(1.5)';
+        document.body.style.transformOrigin = '0 0';
+        document.body.style.width = '66.67%';
+    	</script>
+        
+        <script type="text/javascript">
+			$(function() {
+				var $mybook 		= $('#mybook');
+				var $bttn_next		= $('#next_page_button');
+				var $bttn_prev		= $('#prev_page_button');
+				var $loading		= $('#loading');
+				var $mybook_images	= $mybook.find('img');
+				var cnt_images		= $mybook_images.length;
+				var loaded			= 0;
+				 
+				$mybook_images.each(function(){
+					var $img 	= $(this);
+					var source	= $img.attr('src');
+					$('<img/>').load(function(){
+						++loaded;
+						if(loaded == cnt_images){
+							$loading.hide();
+							$bttn_next.show();
+							$bttn_prev.show();
+							$mybook.show().booklet({
+								name:               null,                            //  
+								width:              800,                             //  
+								height:             500,                             //   
+								speed:              600,                             //  
+								direction:          'LTR',                           //  
+								                           //  
+								next:               $bttn_next,          			//  
+								prev:               $bttn_prev,          			//  
+								                       
+							});
+							Cufon.refresh();
+						}
+					}).attr('src',source);
+				});
+				
+			});
+        </script>
+ 
+    </body>
+ 
+</html>
